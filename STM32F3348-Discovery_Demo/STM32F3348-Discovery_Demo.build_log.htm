@@ -1,0 +1,201 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: mert mutlu, asd, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.23
+Toolchain Path:  D:\Program Files\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      UL2CM3.DLL V1.159.7.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+D:\IKRA\CBR\stm32f334\STM32F3348-Discovery_FW_V1.0.0\Projects\Demonstration\M9\Project.uvprojx
+Project File Date:  08/16/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Program Files\Keil_v5\ARM\ARMCC\Bin'
+Build target 'STM32F3348-Discovery_Demo'
+assembling startup_stm32f334x8.s...
+compiling stm32f30x_dac.c...
+compiling stm32f30x_crc.c...
+compiling stm32f30x_can.c...
+compiling stm32f30x_dbgmcu.c...
+compiling stm32f30x_adc.c...
+compiling stm32f30x_comp.c...
+compiling stm32f30x_dma.c...
+compiling stm32f30x_gpio.c...
+compiling stm32f30x_misc.c...
+compiling stm32f30x_exti.c...
+compiling stm32f30x_iwdg.c...
+compiling stm32f30x_i2c.c...
+compiling stm32f30x_flash.c...
+compiling stm32f30x_hrtim.c...
+compiling stm32f30x_spi.c...
+compiling stm32f30x_pwr.c...
+compiling stm32f30x_syscfg.c...
+compiling stm32f30x_opamp.c...
+compiling stm32f30x_rtc.c...
+compiling stm32f30x_rcc.c...
+compiling stm32f30x_tim.c...
+compiling stm32f30x_usart.c...
+compiling stm32f3348_discovery.c...
+compiling stm32f30x_wwdg.c...
+compiling system_stm32f30x.c...
+compiling stm32f3xx_it.c...
+lcd.h(36): warning:  #1-D: last line of file ends without a newline
+  void put_key_popup( unsigned char key ) ;
+stm32f3xx_it.c(173): warning:  #177-D: variable "ticks"  was declared but never referenced
+    static unsigned int ticks;
+stm32f3xx_it.c: 2 warnings, 0 errors
+compiling relay.c...
+relay.c(62): warning:  #1-D: last line of file ends without a newline
+  }
+relay.c: 1 warning, 0 errors
+compiling main.c...
+lcd.h(36): warning:  #1-D: last line of file ends without a newline
+  void put_key_popup( unsigned char key ) ;
+task_press.h(1): warning:  #1-D: last line of file ends without a newline
+  void press_task(void) ;
+fire.h(3): warning:  #1-D: last line of file ends without a newline
+  unsigned char test_begin( unsigned char test_type, bool oto_man);
+main.c(341): warning:  #128-D: loop is not reachable
+  	while(1)
+main.c(580): warning:  #177-D: variable "DAC_InitStructure"  was declared but never referenced
+  	DAC_InitTypeDef  DAC_InitStructure;
+main.c(975): warning:  #177-D: variable "GPIO_InitStructure"  was declared but never referenced
+    GPIO_InitTypeDef      GPIO_InitStructure;
+main.c(1381): warning:  #128-D: loop is not reachable
+   while(1)
+main.c(1412): warning:  #128-D: loop is not reachable
+  	while(1)
+main.c(1444): warning:  #128-D: loop is not reachable
+  while(1)
+main.c(1465): warning:  #111-D: statement is unreachable
+  command_flag=0;
+main.c(1572): warning:  #128-D: loop is not reachable
+  	 for(i=0;i<0xfffff;i++);
+main.c(1758): warning:  #128-D: loop is not reachable
+  	while(1)
+main.c(1772): warning:  #111-D: statement is unreachable
+    STM_EVAL_LEDInit(LED3);
+main.c(1950): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        for(variable = 
+in_Intensity; variable >= 
+ax_Intensity && NoWait == 
+ALSE;variable-=0.1)
+main.c(1962): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          y = ((variable/100) * 1.1);
+main.c(1972): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        for(variable = 
+ax_Intensity; variable <= 
+in_Intensity && NoWait == 
+ALSE;variable+=0.1)
+main.c(1984): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          y = ((variable/100) * 1.1);
+main.c(1243): warning:  #177-D: variable "GPIO_InitStructure"  was declared but never referenced
+  		GPIO_InitTypeDef  GPIO_InitStructure;
+main.c(2162): warning:  #177-D: variable "RTC_AlarmStructure"  was declared but never referenced
+    RTC_AlarmTypeDef RTC_AlarmStructure;
+main.c(2163): warning:  #177-D: variable "NVIC_InitStructure"  was declared but never referenced
+    NVIC_InitTypeDef NVIC_InitStructure;
+main.c(2164): warning:  #177-D: variable "EXTI_InitStructure"  was declared but never referenced
+    EXTI_InitTypeDef EXTI_InitStructure;
+main.c(2812): warning:  #177-D: function "ADC_Config_3"  was declared but never referenced
+  static void ADC_Config_3(void)
+main.c: 22 warnings, 0 errors
+compiling calibration_press.c...
+compiling 25LC512.C...
+25LC512.C(537): warning:  #550-D: variable "status"  was set but never used
+      static unsigned char status;    // Temp. variable to store status reg.
+compiling ads1232.c...
+compiling fire.c...
+lcd.h(36): warning:  #1-D: last line of file ends without a newline
+  void put_key_popup( unsigned char key ) ;
+fire.h(3): warning:  #1-D: last line of file ends without a newline
+  unsigned char test_begin( unsigned char test_type, bool oto_man);
+fire.c(85): warning:  #1-D: last line of file ends without a newline
+  }
+fire.c: 3 warnings, 0 errors
+compiling lcd.c...
+lcd.h(36): warning:  #1-D: last line of file ends without a newline
+  void put_key_popup( unsigned char key ) ;
+lcd.c(242): warning:  #177-D: variable "i"  was declared but never referenced
+  unsigned short i; 
+lcd.c: 2 warnings, 0 errors
+compiling task_test.c...
+lcd.h(36): warning:  #1-D: last line of file ends without a newline
+  void put_key_popup( unsigned char key ) ;
+fire.h(3): warning:  #1-D: last line of file ends without a newline
+  unsigned char test_begin( unsigned char test_type, bool oto_man);
+task_test.c(813): warning:  #1-D: last line of file ends without a newline
+  //} 
+task_test.c: 3 warnings, 0 errors
+compiling task_press.c...
+lcd.h(36): warning:  #1-D: last line of file ends without a newline
+  void put_key_popup( unsigned char key ) ;
+task_press.c(49): warning:  #177-D: variable "i"  was declared but never referenced
+  	 unsigned short i;
+task_press.c(50): warning:  #177-D: variable "address"  was declared but never referenced
+  	 unsigned short address,eeprom_address;
+task_press.c(50): warning:  #177-D: variable "eeprom_address"  was declared but never referenced
+  	 unsigned short address,eeprom_address;
+task_press.c(161): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  		input_number_unsigned16( 'OK',0x000E );
+task_press.c(167): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  		input_number_unsigned16( 'OK',0x0010 );
+task_press.c(192): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  		input_number_unsigned16( 'OK',0x000E );
+task_press.c(198): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  		input_number_unsigned16( 'OK',0x0010 );
+task_press.c(225): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  		input_number_unsigned16( 'OK',0x000E );
+task_press.c(231): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  		input_number_unsigned16( 'OK',0x0010 );
+task_press.c(133): warning:  #177-D: variable "address"  was declared but never referenced
+  	 unsigned short address,eeprom_address;
+task_press.c(282): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  				input_number_unsigned16( 'OK',0x000E );
+task_press.c(291): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  				input_number_unsigned16( 'OK',0x0010 );
+task_press.c(345): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  				input_number_unsigned16( 'OK',0x000E );
+task_press.c(354): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  				input_number_unsigned16( 'OK',0x0010 );
+task_press.c(410): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  				input_number_unsigned16( 'OK',0x000E );
+task_press.c(419): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  				input_number_unsigned16( 'OK',0x0010 );
+task_press.c(620): warning:  #177-D: variable "address"  was declared but never referenced
+  	unsigned short address,eeprom_address;
+task_press.c(910): warning:  #177-D: variable "channel"  was declared but never referenced
+    unsigned char channel;
+task_press.c(913): warning:  #550-D: variable "status"  was set but never used
+   unsigned char  status; 
+task_press.c(517): warning:  #177-D: function "save_eeprom"  was declared but never referenced
+  static void save_eeprom(unsigned char channel )
+task_press.c: 21 warnings, 0 errors
+linking...
+Program Size: Code=18424 RO-data=464 RW-data=568 ZI-data=1584  
+"STM32F3348-Discovery_Demo\STM32F3348-Discovery_Demo.axf" - 0 Error(s), 55 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM32F3348-Discovery_Demo
+  D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.4.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:09
+</pre>
+</body>
+</html>
