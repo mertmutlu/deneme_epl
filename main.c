@@ -35,9 +35,8 @@
 #include "lcd.h"
 #include "task_press.h"
 #include "fire.h"
-/** @addtogroup STM32F3348-Discovery_Demo
-* @{
-*/ 
+
+//ekledim 
 __IO uint8_t showtime[50] = {0};
 __IO uint8_t showdate[50] = {0};
 RTC_DateTypeDef RTC_DateStructure;
